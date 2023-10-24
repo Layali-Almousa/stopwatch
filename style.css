@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,800;1,900&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,800;1,900&family=Roboto:wght@100&family=Vidaloka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.almrsal.com/wp-content/uploads/2023/05/%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-k4-%D9%84%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-scaled.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.time{
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+h1{
+    font-family: Montserra;
+}
+
+h1,p{
+    color: aliceblue;
+}
+button{
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-family: Dancing Script;
+    font-size:20px ;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
